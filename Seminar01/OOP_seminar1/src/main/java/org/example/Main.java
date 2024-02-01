@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Random;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -18,5 +20,6 @@ public class Main {
         System.out.printf("cos(<%s%s)=%.2f%n",a.getName(),b.getName(),a.getCosAngle(b));
         System.out.printf("%s + %s = %s%n",a.getName(),b.getName(),a.getAdd(b));
         System.out.printf("%s - %s = %s%n",a.getName(),b.getName(),a.getSub(b));
+        System.out.printf("%s.x = %.2f%n", a.getName(),a.getX());
     }
 }
