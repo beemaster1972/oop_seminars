@@ -15,6 +15,10 @@ import java.util.List;
 @NoArgsConstructor
 
 public class Calculator<N extends Number> {
+//    public Calculator(List<N> numbers) {
+//        this.numbers = numbers;
+//    }
+
     private List<N> numbers;
 
     public Double sum() {

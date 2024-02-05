@@ -19,7 +19,7 @@ public class Main {
         BoxWithNumbers<Integer> intList = new BoxWithNumbers<>(new Integer[]{1, 2, 3, 4, 5, 6,7,8});
         System.out.println(intList.average());
         System.out.println(list.compareAverage(intList));
-        Calculator<Integer> calc = new Calculator<>();
+        Calculator<Integer> calc = new Calculator<>(new ArrayList<>());
         for (int i = 0; i < 100 ; i++) {
             calc.getNumbers().add(i);
 
