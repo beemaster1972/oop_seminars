@@ -14,11 +14,11 @@ public class Main {
 //        System.out.println(sum);
 //        Double sum2 = box3.getObj()+box2.getObj();
 //        System.out.println(sum2);
-        BoxWithNumbers<Double> list = new BoxWithNumbers<>(new Double[]{1.0, 2.0, 3.0, 4.0, 5.0, 6.0});
-        System.out.println(list.average());
+        BoxWithNumbers<Double> doubleBoxWithNumbers = new BoxWithNumbers<>(new Double[]{1.0, 2.0, 3.0, 4.0, 5.0, 6.0});
+        System.out.println(doubleBoxWithNumbers.average());
         BoxWithNumbers<Integer> intList = new BoxWithNumbers<>(new Integer[]{1, 2, 3, 4, 5, 6,7,8});
         System.out.println(intList.average());
-        System.out.println(list.compareAverage(intList));
+        System.out.println(doubleBoxWithNumbers.compareAverage(intList));
         Calculator<Integer> calc = new Calculator<>(new ArrayList<>());
         for (int i = 0; i < 100 ; i++) {
             calc.getNumbers().add(i);
