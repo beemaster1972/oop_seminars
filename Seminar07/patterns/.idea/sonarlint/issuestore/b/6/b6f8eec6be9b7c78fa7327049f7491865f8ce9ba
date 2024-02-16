@@ -1,0 +1,5 @@
+
+^
+java:S1854	"BRemove this useless assignment to local variable "boilingProgram".(”¹Î8ý’éÃñ0
+O
+java:S1481	"3Remove this unused "boilingProgram" local variable.(”¹Î8€“éÃñ0
